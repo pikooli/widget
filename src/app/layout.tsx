@@ -28,7 +28,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <script src="http://localhost:3001/widget.js" async></script>
+        <script src="http://localhost:3000/widget.js" async></script>
       </body>
     </html>
   );

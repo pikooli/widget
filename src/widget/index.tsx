@@ -57,7 +57,7 @@ const renderWidget = () => {
 
   const link = document.createElement('link');
   link.setAttribute('rel', 'stylesheet');
-  link.setAttribute('href', 'http://localhost:3001/widget.css');
+  link.setAttribute('href', 'http://localhost:3000/widget.css');
   shadowRoot.appendChild(link);
 
   mountPoint.setAttribute('data-widget-root', '');
